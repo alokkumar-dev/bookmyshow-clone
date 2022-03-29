@@ -33,6 +33,7 @@
                   <input type="text" placeholder="Search for Movies, Events, Plays, Sports and Activities"/>
                   </span>
                  </div>
+                 <div class="sc-eInJlc fIvCmI"><div class="sc-jKVCRD hmbjRr"><span class="sc-kaNhvL jlISnX ellipsis">Aalo</span></div><div class="sc-jKVCRD hmbjRr"><div class="sc-chbbiW bQENkS">Sign in</div><div class="sc-hzNEM hGOWBG"><svg width="22px" height="14px" xmlns="http://www.w3.org/2000/svg"><title>Hamburger Menu</title><g fill-rule="nonzero" stroke="#FFF" stroke-width="1.5" fill="none" stroke-linecap="round"><path d="M1.611 1h20.614M1.611 7h20.614M1.611 13h20.614"></path></g></svg></div></div></div>
                  </div>
                  <div className="navsecond">
 <span className="span1">

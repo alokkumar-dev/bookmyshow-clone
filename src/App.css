@@ -87,6 +87,55 @@
   outline: none !important;
   border-color: white;
  }
+ .fIvCmI {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  height: 100%;
+}
+.jlISnX::after {
+  display: block;
+  content: "";
+  position: absolute;
+  inset: -2px 0px 0px;
+  margin: auto 0px auto auto;
+  width: 0px;
+  height: 0px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid rgb(255, 255, 255);
+}
+.bQENkS {
+  color: rgb(255, 255, 255);
+  background-color: rgb(248, 68, 100);
+  font-size: 12px;
+  height: 25px;
+  line-height: 25px;
+  width: 67px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgb(248, 68, 100);
+  display: block;
+}
+.hmbjRr:last-child {
+  margin-right: 0px;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+.hmbjRr {
+  margin-right: 24px;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
  .navsecond{
   width: 100%;
   height: 40px;
@@ -195,7 +244,7 @@ justify-content: center;
 align-items: center;
  }
  .maincitiesinside{
-  width: 98%;
+  width: 84%;
 
   text-align: left;
    }
@@ -213,6 +262,9 @@ align-items: center;
     padding-right: 5px;
     border-right: 1px solid rgb(127, 127, 127);
      }
+     .maincitiesinside>div>div>p:hover{
+      color: white;
+       }
      .maincitiesinside>div>div>p:nth-last-child(1){
       font-size: 11px;
       color: rgb(127, 127, 127);
@@ -237,4 +289,53 @@ align-items: center;
     color: rgb(165, 165, 165);
          }
 
-       
+         .mqFuI {
+          display: flex;
+          width: 100%;
+          -webkit-box-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          justify-content: center;
+          height: 125px;
+      }
+
+      .izRfKO {
+        flex: 1 1 0%;
+        height: 1px;
+        background: rgb(93, 93, 95);
+    }
+    .KwZdx {
+      padding: 0px 20px;
+  }
+  .izRfKO {
+    flex: 1 1 0%;
+    height: 1px;
+    background: rgb(93, 93, 95);
+}
+.fjqhyD {
+  text-align: center;
+}
+.hflvIy {
+  display: inline-block;
+  margin-right: 10px;
+  width: 37px;
+  height: 37px;
+}
+
+.bXJjbc {
+    padding: 30px;
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
+.hflvIy svg {
+  fill: rgb(93, 93, 95);
+}
+.hflvIy svg:hover {
+  fill: white;
+}
+svg:not(:root) {
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
