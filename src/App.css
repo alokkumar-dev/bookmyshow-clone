@@ -57,7 +57,7 @@
 }
 
 .navinside>svg{
- margin-left: 10px;
+ margin-left: 15px;
 }
 .navinside>span{
   width: 58%;
@@ -89,14 +89,113 @@
  }
  .navsecond{
   width: 100%;
-  height: 36px;
+  height: 40px;
   background-color: #222539;
   display: flex;
   align-items: center;
  }
  .span1{
   width: 60%;
+ margin-left: 8%;
  display: flex;
  align-items: center;
- height: 100%;
  }
+
+ .span1>:link>p{
+font-size: 10px;
+position: absolute;
+margin: 0;
+margin-left: 28px;
+margin-top: -8px;
+ }
+ .span2{
+  width: 40%;
+  margin-right: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+ }
+ .span2>:link>p{
+  font-size: 10px;
+  position: absolute;
+  margin: 0;
+  margin-left: 66px;
+  margin-top: -8px;
+   }
+.footer{
+  width: 100%;
+  height: 800px;
+  background-color: #313035;
+}
+   .footercontactcontainer{
+width: 100%;
+height: 85px;
+background-color: #313035;
+border: white solid 1px;
+margin-top: 0px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+   }
+   .footercontact{
+width: 60%;
+height: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+   }
+   .footercontactins{
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     color: white;
+   }
+   .contacttoday{
+     width: 12%;
+     background-color:#ec5e71 ;
+     height: 50%;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     
+   }
+   .customcare{
+     width: 100%;
+     height: 118px;
+     border: white solid 1px;
+     background-color: #404043;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+   }
+   .customcare>span>svg{
+   fill: #8a8a8c;
+   width: 65px;
+  }
+  .customcare>span>svg:hover{
+    fill: white;
+    width: 80px;
+   }
+   .customcare>span>p{
+    color: #8a8a8c;
+    font-size: 11px;
+    
+   }
+   .customcare>span>p:hover{
+    color: white;
+    font-size: 11px;
+   }
+ .maincities{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+ }
+ .maincitiesinside{
+  width: 95%;
+  border: white solid 1px;
+   }
