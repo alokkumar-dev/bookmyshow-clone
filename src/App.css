@@ -199,3 +199,9 @@ align-items: center;
   width: 95%;
   border: white solid 1px;
    }
+   .maincitiesinside>div{
+    margin-left: 0px;
+      }
+   .maincitiesinside>div>div{
+   display: flex;
+     }
