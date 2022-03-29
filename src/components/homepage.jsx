@@ -3,7 +3,7 @@
 export const Home =()=>{
     return(
         <div>
-            <h1>HomPage</h1>
+            <h1>HomePage</h1>
         </div>
     )
 }
