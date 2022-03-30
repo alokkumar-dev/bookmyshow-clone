@@ -2,9 +2,8 @@
     width: 100%;
     margin: auto;
     height: auto;
-    /* margin-bottom: 30px; */
     margin-bottom: 200px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 .CartMainDiv{
     width: 90%;
@@ -12,14 +11,23 @@
     margin:30px auto;
     text-align: center;
     font-family: sans-serif;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    
+}
+.CartMainDiv>h4{
+    font-weight: 400;
+    /* word-spacing: 10px; */
+    letter-spacing: 5px;
+    font-size: 18px;
+    color: #666;
+    line-height: 28px
     
 }
 .BankCartMainDiv{
     width: 100%;
  
-    padding-top: 15px;    
-    border: 2px solid red;
+    padding-top: 20px;    
+    /* border: 2px solid red; */
     background-color: #f2f2f2;
 }
 .BanksCart{
