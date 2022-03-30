@@ -1,0 +1,46 @@
+{
+  "movies":[
+    {
+      "id": 1,
+      "imageUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@heart_202006300400.png,ox-24,oy-617,ow-29:ote-OTElICA0MzdrIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00094579-gsftrcbumj-portrait.jpg",
+      "title": "RRR",
+      "type": "Action/Drama/Historical/Period",
+      "duration": "3h 2m",
+      "release": "25 Mar,2022",
+      "ratings": "437.5k",
+      "screen-type": "2D,IMAX 2D,3D,IMAX 3D",
+      "language": "Telugu, Hindi, Malyalam, Kannada, Tamil",
+      "movie-type" : "UA",
+      "about": "RRR is a period drama set in India during the 1920s, revolving around the inspiring journey of two of India`s freedom fighters - Alluri Sitarama Raju and Komaram Bheem.",
+      "background-image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/rrr-et00094579-29-03-2022-03-23-44.jpg"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/the-kashmir-files-et00110845-24-02-2022-03-28-20.jpg",
+      "title": "The Kashmir Files",
+      "type": "Drama/Historical",
+      "duration": "2h 50m",
+      "release": "11 Mar,2022",
+      "ratings": "511k",
+      "screen-type": "2D",
+      "language": "Hindi",
+      "movie-type" : "A",
+      "about": "The Kashmir Files` is a true story, based on video interviews of the first generation victims of the Genocide of Kashmiri Pandit Community In 1990.",
+      "background-image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/the-kashmir-files-et00110845-24-02-2022-03-28-20.jpg"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/bachchhan-paandey-et00108170-16-03-2022-11-44-30.jpg",
+      "title": "Bachchhan Paandey",
+      "type": "Action/Comedy/Crime",
+      "duration": "2h 29m",
+      "release": "18 Mar,2022",
+      "ratings": "46.4k",
+      "screen-type": "2D",
+      "language": "Hindi",
+      "movie-type" : "UA",
+      "about": "Myra Devekar is an aspiring director who has a fallout with her director. She gets the support of her producer and is given a task by him to come up with a gripping gangster biopic flick infested with heavy dosage of violence. Myra gets an idea that will `kill two birds with one stone` by making a biopic on a real life gangster! Satisfying the producers need for commercialism and her hunger for making a realistic film. Her extensive research only leads to one name, the most menacing, one eyed `Bachchan Pandey` of Baagwa, a ruthless gangster surrounded by quirky yet scary henchmen. Myra discreetly tries her best to find out about Bachchan Pandey, with the help of an old friend who resides in Baagwa, so that he can help gather more information to develop a film script, but fails miserably in all her attempts. However when she finally gets the chance to gain an insight into Bachchan`s life and ends up getting caught by Bachchan Pandey. What happens next in this twist of tales takes us on a roller coaster ride.",
+      "background-image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/bachchhan-paandey-et00108170-16-03-2022-11-44-30.jpg"
+    }
+  ]
+}
