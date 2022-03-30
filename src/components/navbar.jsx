@@ -124,7 +124,7 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
               <br />
               <input type="text" />
               <br />
-              <button type="submit" class="btnsignupmail">Login</button>
+              <button type="submit" class="btnsignupmail">Sign up</button>
             </form>
             </div>
           </div>:""
