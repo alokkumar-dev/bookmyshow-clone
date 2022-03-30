@@ -1,0 +1,43 @@
+.bankOneCart {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.imgDiv {
+  width: 100%;
+  height: 70%;
+  /* background-image: url("https://in.bmscdn.com/offers/offerlisting/sbi-inr-500-off-on-signature-credit-card-sbi0613.jpg?06122021123523"); */
+}
+.imgDiv > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.bankLogo {
+  width: 26%;
+  height: 15%;
+  margin-left: 7px;
+  margin-top: -12%;
+}
+.bankLogo > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.textDiv {
+  text-align: center;
+}
+.textDiv > h5 {
+  color: #333;
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.textDiv > h6 {
+  color: #555;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 5px;
+}

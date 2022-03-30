@@ -1,0 +1,33 @@
+.cartDiv {
+  gap: 2%;
+  width: 35%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.svgdiv {
+  width: 40px;
+  height: 35px;
+  margin: auto;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 5px;
+}
+.svgdiv > img {
+  width: 60%;
+  height: 60%;
+  color: red;
+  margin-top: 6px;
+}
+.btnName {
+  padding: 0;
+  font-size: 9px;
+  color: #5a5a5a;
+}
+.btnName:hover {
+  color: #f84464;
+}
+.svgdiv:hover {
+  background-color: #f84464;
+}

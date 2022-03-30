@@ -1,0 +1,31 @@
+.Offer_containter{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    /* margin-bottom: 30px; */
+    margin-bottom: 200px;
+    border: 2px solid blue;
+}
+.CartMainDiv{
+    width: 90%;
+    height: 120px;
+    margin:30px auto;
+    text-align: center;
+    font-family: sans-serif;
+    border: 1px solid black;
+    
+}
+.BankCartMainDiv{
+    width: 100%;
+ 
+    padding-top: 15px;    
+    border: 2px solid red;
+    background-color: #f2f2f2;
+}
+.BanksCart{
+    gap: 2%;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
