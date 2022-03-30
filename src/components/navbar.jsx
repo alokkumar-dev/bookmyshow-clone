@@ -7,11 +7,19 @@ import { Link } from "react-router-dom"
 
   const [sign,signdiv]=useState(false)
   const [email,emaildiv]=useState(false)
+  const [signup,signupdiv]=useState(false)
+  const [menu,menudiv]=useState(false)
   const signtoggle=()=>{
     signdiv(!sign)
   }
+  const menutoggle=()=>{
+    menudiv(!menu)
+  }
   const emailtoggle=()=>{
     emaildiv(!email)
+  }
+  const signuptoggle=()=>{
+    signupdiv(!signup)
   }
     const linkStyle = {
         margin: "0.75rem",
@@ -64,13 +72,16 @@ import { Link } from "react-router-dom"
 email ? <div className="login">
   <div className="loging">
     <div className="loghead">
-      <div className="backdiv"><svg width="16" height="13" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><title>Go back</title><path d="M72.7,0c1.9,0.1,3.6,1.2,4.6,3.3s0.7,4.2-0.8,6.1c-0.2,0.2-0.4,0.4-0.6,0.6c-5.1,5.1-10.2,10.2-15.3,15.4
+      <div className="backdiv"><svg onClick={()=>{
+        signtoggle()
+        emailtoggle()
+      }} width="16" height="13" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><title>Go back</title><path d="M72.7,0c1.9,0.1,3.6,1.2,4.6,3.3s0.7,4.2-0.8,6.1c-0.2,0.2-0.4,0.4-0.6,0.6c-5.1,5.1-10.2,10.2-15.3,15.4
 c-7,7-13.9,14-20.9,21c-2.2,2.2-2.2,5.2,0,7.4C51.8,65.9,63.8,77.9,75.9,90c1.3,1.3,2.1,2.7,2.1,4.5c-0.1,2.3-1.2,4.1-3.3,5
 c-2.1,1-4.1,0.6-5.9-0.8c-0.3-0.2-0.5-0.5-0.8-0.7C53.2,83.2,38.5,68.5,23.8,53.8c-2.4-2.4-2.3-5.2,0-7.6c4-4,7.9-8,11.9-12
 C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></div>
     </div>
     <h1>Login with Email</h1>
-    <form action="">
+    <form className="logemail" action="">
     <label htmlFor="">Email</label>
     <br />
     <input type="email" />
@@ -78,6 +89,12 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
     <label htmlFor="">Password</label>
     <br />
     <input type="text" />
+    <br />
+    <button type="submit" class="btnlogmail">Login</button>
+    <h3 onClick={()=>{
+      emailtoggle()
+      signuptoggle()
+    }}>Create Account</h3>
   </form>
   </div>
   
@@ -85,6 +102,49 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
   
 </div>:""
 
+           }{
+            signup ? <div className="signup">
+            <div className="signuping">
+              <div className="signuphead">
+                <div className="backdiv"><svg onClick={()=>{
+                  emailtoggle()
+                  signuptoggle()
+                }} width="16" height="13" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><title>Go back</title><path d="M72.7,0c1.9,0.1,3.6,1.2,4.6,3.3s0.7,4.2-0.8,6.1c-0.2,0.2-0.4,0.4-0.6,0.6c-5.1,5.1-10.2,10.2-15.3,15.4
+          c-7,7-13.9,14-20.9,21c-2.2,2.2-2.2,5.2,0,7.4C51.8,65.9,63.8,77.9,75.9,90c1.3,1.3,2.1,2.7,2.1,4.5c-0.1,2.3-1.2,4.1-3.3,5
+          c-2.1,1-4.1,0.6-5.9-0.8c-0.3-0.2-0.5-0.5-0.8-0.7C53.2,83.2,38.5,68.5,23.8,53.8c-2.4-2.4-2.3-5.2,0-7.6c4-4,7.9-8,11.9-12
+          C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></div>
+              </div>
+              <h1>Create account</h1>
+              <form className="signupemail" action="">
+              <label htmlFor="">Email</label>
+              <br />
+              <input type="email" />
+              <br />
+              <label htmlFor="">Password</label>
+              <br />
+              <input type="text" />
+              <br />
+              <button type="submit" class="btnsignupmail">Login</button>
+            </form>
+            </div>
+          </div>:""
+           }{
+             menu ? <div className="menu">
+<div className="menuinside">
+  <div className="menuheader">
+    <h1>Hey!</h1>
+  </div>
+  <div className="menufooter">
+  <div><span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="1 0 22 22"><path fill="#666" fill-rule="evenodd" d="M13.977 5.094l.002.002-.005-.002v.001l-.021-.005.206.045A5.002 5.002 0 0 1 18 10v6.974L20 19h-2l-3.55-.001a2.5 2.5 0 1 1-4.9 0L7.027 19v.004h-3L6 17.003V10a5.002 5.002 0 0 1 4.048-4.91l-.049.01L10 4a2 2 0 1 1 4 0l.001 1.1-.008-.002-.035-.008.018.004zm-.563 13.905h-2.829a1.5 1.5 0 1 0 2.83 0zM13 6h-2a4 4 0 0 0-4 4v6.978L7.014 18H17v-8a4 4 0 0 0-4-4zm.983-.904l.003.001.007.001-.008-.001-.002-.001zm-.002 0h.002l-.005-.002.003.002zm-.28-.047l.112.017.018.002-.13-.019zm-3.388-.003l-.057.009.036-.005.02-.004zm.267-.029l-.172.018.148-.016.024-.002zm2.928.008l.082.01a5.014 5.014 0 0 0-.082-.01zm-2.803-.016l-.125.008h.015l.11-.008zm2.538-.003h.013l.05.003-.063-.003zM12 3a1 1 0 0 0-1 1v1h2V4a1 1 0 0 0-1-1z"></path></svg></span><span>Notifications</span><span>></span></div>
+  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/purchasehistory.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Purchase History <br /> View all your bookings & purchases</p></span><span>></span></div>
+  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/streamlibrary.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Stream Library<br />Rented & Purchased Movies</p></span><span>></span></div>
+  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/helpandsupport.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Help & Support<br />View commonly asked queries and Chat</p></span><span>></span></div>
+  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/accountandsettings.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Accounts & Settings<br />Location, Payments, Addresses & More</p></span><span>></span></div>
+  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/rewards.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Rewards<br />View your rewards & unlock new ones</p></span><span>></span></div>
+  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/bookasmile.png" class="sc-gRnDUn gMMdZt"/></span><span>BookASmile</span><span>></span></div>
+  </div>
+</div>
+             </div>:""
            }
              <div className="navfirst">
                  <div className="navinside" >
@@ -97,7 +157,7 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
                   <input type="text" placeholder="Search for Movies, Events, Plays, Sports and Activities"/>
                   </span>
                  </div>
-                 <div class="sc-eInJlc fIvCmI"><div class="sc-jKVCRD hmbjRr"><div onClick={signtoggle} class="sc-chbbiW bQENkS">Sign in</div><div class="sc-hzNEM hGOWBG"><svg width="22px" height="14px" xmlns="http://www.w3.org/2000/svg"><title>Hamburger Menu</title><g fill-rule="nonzero" stroke="#FFF" stroke-width="1.5" fill="none" stroke-linecap="round"><path d="M1.611 1h20.614M1.611 7h20.614M1.611 13h20.614"></path></g></svg></div></div></div>
+                 <div class="sc-eInJlc fIvCmI"><div class="sc-jKVCRD hmbjRr"><div onClick={signtoggle} class="sc-chbbiW bQENkS">Sign in</div><div class="sc-hzNEM hGOWBG"><svg onClick={menutoggle}  width="22px" height="14px" xmlns="http://www.w3.org/2000/svg"><title>Hamburger Menu</title><g fill-rule="nonzero" stroke="#FFF" stroke-width="1.5" fill="none" stroke-linecap="round"><path d="M1.611 1h20.614M1.611 7h20.614M1.611 13h20.614"></path></g></svg></div></div></div>
                  </div>
                  <div className="navsecond">
 <span className="span1">

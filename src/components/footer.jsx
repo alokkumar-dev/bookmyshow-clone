@@ -46,7 +46,6 @@ export const Footer=()=>{
     <div><h2>COUNTRIES</h2><div ><p href="https://id.bookmyshow.com/" >Indonesia</p><p href="https://sg.bookmyshow.com/" >Singapore</p><p href="https://pe.bookmyshow.com/" >UAE</p><p href="https://lk.bookmyshow.com/" >Sri Lanka</p><p href="https://wi.bookmyshow.com/" >West Indies</p></div></div>
     <div><h2>HELP</h2><div ><p href="/pboutus" >About Us</p><p href="/contactus" >Contact Us</p><p href="/careers/" >Current Opening</p><p href="/press-release" >Press Release</p><p href="/press-coverage" >Press Coverage</p><p href="/static/sitemap" >Sitemap</p><p href="/faq" >FAQs</p><p href="/terms-and-conditions" >Terms and Conditions</p><p href="/privacy" >Privacy Policy</p></div></div>
     <div><h2>BOOKMYSHOW EXCLUSIVES</h2><div ><p href="/superstar" >Superstar</p><p href="/donation" >BookASmile</p><p href="/voucher" >Corporate Vouchers</p><p href="/giftcards" >Gift Cards</p><p href="/s/list-your-show/" >List My Show</p><p href="/offers" >Offers</p><p href="/explore/c/stream" >Stream</p><p href="/buzz" >Buzz</p><p href="/trailers" >Trailers</p></div></div>
-    image
     </div> 
 </div>
             {/* cities end*/}

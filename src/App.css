@@ -490,3 +490,130 @@ justify-content: center;
   display: flex;
   align-items: center;
 }
+.logemail>input{
+  width: 80%;
+  height: 30px;
+  margin-top: 5px;
+}
+.logemail>h3{
+  padding: 5px;
+  background-color: #ec5e71;
+  
+}
+.btnlogmail{
+margin-top: 20px;
+color: white;
+background-color: #ec5e71;
+border-color: #ec5e71;
+width: 100px;
+height: 30px;
+}
+
+
+/*  */
+.signup{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(207, 200, 200, 0.12);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+.signuping{
+  margin-top: 0px;
+  width: 400px;
+  height: 550px;
+  background-color: white;
+  opacity: 1;
+  border-radius: 6px;
+  padding: 10px;
+}
+.signuphead{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backdiv{
+  width: 90%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+.signupemail>input{
+  width: 80%;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.btnsignupmail{
+margin-top: 20px;
+color: white;
+background-color: #ec5e71;
+border-color: #ec5e71;
+width: 100px;
+height: 30px;
+}
+.menu{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(207, 200, 200, 0.12);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 20;
+}
+.menuinside{
+  width: 420px;
+  height: 750px;
+  background-color: white;
+  opacity: 1;
+  border-radius: 6px;
+  text-align: center;
+}
+.menuheader{
+  height: 75px;
+  width: 100%;
+  background-color: #2e3147;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menuheader>h1{
+margin-left: 10px;
+color: white;
+}
+.menufooter{
+ width: 100%;
+  }
+  .menufooter>div{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    border: solid 1px;
+     }
+     .menufooter>div>span:nth-last-child(1){
+     width: 10%;
+       }
+       .menufooter>div>span:nth-last-child(3){
+        width: 20%;
+          }
+          .menufooter>div>span:nth-last-child(2){
+            
+            width: 70%;
+              }
+              .menufooter>div>span:nth-last-child(3)>img{
+               width: 32px;
+                  }
+                  .menufooter>div>span{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                     }
+                     
