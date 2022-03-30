@@ -605,7 +605,8 @@ color: white;
         width: 20%;
           }
           .menufooter>div>span:nth-last-child(2){
-            
+            display: flex;
+            justify-content: flex-start;
             width: 70%;
               }
               .menufooter>div>span:nth-last-child(3)>img{
