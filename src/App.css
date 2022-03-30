@@ -359,67 +359,134 @@ svg:not(:root) {
 }
 .signpop{
   margin-top: 0px;
-  width: 450px;
+  width: 400px;
   height: 550px;
   background-color: white;
   opacity: 1;
   border-radius: 6px;
-  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
   text-align: center;
 }
+.headers{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signpopinside{
+width: 95%;
+text-align: center;
+}
+.headers>span:nth-last-child(2){
+  margin: 0;
+width: 100%;
 
-@media (min-width: 768px)
-{
-.hlurNw {
-    
-    padding: 24px 28px;
-    box-shadow: none;
-    border-radius: 8px;
 }
+.headers>span:nth-last-child(1){
+  z-index: 10;
 }
-.hlurNw {
-    display: flex;
-    flex-flow: row nowrap;
-    -webkit-box-align: stretch;
-    align-items: stretch;
-    -webkit-box-pack: start;
-    justify-content: flex-start;
-    margin: 0;
-    opacity: 1;
-    background: rgb(255, 255, 255);
-    z-index: 1;
-    width: 92.8%;
-    padding: 18px 16px;
-    
-}
+.mmlk>div{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-left: 10%;
+  height: 40px;
+  border: 2px solid #e6e6e6;
+  margin-top: 23px;
+  align-items: center;
+  border-radius: 3px;
   
-@media (min-width: 768px)
-{
-.kiiMpR {
-    display: block;
+}
+.mmlk>div:hover{
+  background-color: rgb(89, 89, 89);
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(153, 153, 153);
+}
+.mmlk{
+  width: 100%;
+  margin-top: 8px;
 }
 
+.textrdiv{
+width: 80%;
 }
-.kiiMpR {
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
-    -webkit-box-align: center;
-    align-items: center;
-    display: inline-flex;
-    -webkit-box-pack: center;
-    justify-content: center;
+.phone{
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
-
-.geqsna {
-    flex: 1 1 0%;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0px;
-    text-align: center;
-    text-transform: none;
-    color: rgb(51, 51, 51);
+.phone>span:nth-last-child(1){
+  width: 70%;
+  
+  }
+  .phone>span:nth-last-child(1)>input{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: rgb(102, 102, 102);
+    border-color:  #8a8a8c;
+    }
+    .phone>span:nth-last-child(1)>input:focus{
+      outline: none !important;
+      border-color:  rgb(102, 102, 102);
+     }
+     .terms{
+font-size: 12px;
+color: rgb(102, 102, 102);
+margin-top: 120px;
+display: flex;
+align-items: center;
+justify-content: center;
+     }
+     .orh{
+       color: #8a8a8c;
+     }
+     .gQWtTC {
+      color: rgb(102, 102, 102);
+      font-size: 12px;
+  }
+  .jCeEqN {
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    text-decoration: underline;
 }
-
-
+.login{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(207, 200, 200, 0.12);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+.loging{
+  margin-top: 0px;
+  width: 400px;
+  height: 550px;
+  background-color: white;
+  opacity: 1;
+  border-radius: 6px;
+  padding: 10px;
+}
+.loghead{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backdiv{
+  width: 90%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
