@@ -2,10 +2,16 @@
 import { Link } from "react-router-dom"
 import { useDispatch,useSelector } from "react-redux";
  import styled from "styled-components";
- 
+ import{addCity} from '../Reducers/city/action'
  
  export const Navbar=()=>{
-
+const dispatch=useDispatch()
+const takecity=(city)=>{
+  dispatch(addCity(city))
+}
+const cities=useSelector((store)=>
+store.city.city
+)
   const [sign,signdiv]=useState(false)
   const [email,emaildiv]=useState(false)
   const [signup,signupdiv]=useState(false)
@@ -146,13 +152,27 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
   </div>
 </div>
              </div>:""
-           }{
+           }{!cities ?
              <div className="city">
                <div className="cityinside">
-                 <span></span>
-                 <div><span><img src="//in.bmscdn.com/m6/images/common-modules/regions/mumbai.png" alt="MUMBAI" class="sc-bqjOQT aUKrX"/><p>Mumbai</p></span></div>
+                 <span>Popular Cities</span>
+                 <div className="citiesdiv">
+                   <span onClick={()=>takecity("Mumbai")}><img src="//in.bmscdn.com/m6/images/common-modules/regions/mumbai.png" alt="MUMBAI" class="sc-bqjOQT aUKrX"/><p>Mumbai</p></span>
+                   <span onClick={()=>takecity("NCR")}><img src="//in.bmscdn.com/m6/images/common-modules/regions/ncr.png" alt="NCR" class="sc-bqjOQT aUKrX"/><p>NCR</p></span>
+                   <span onClick={()=>takecity("Bengaluru")}><img src="//in.bmscdn.com/m6/images/common-modules/regions/bang.png" alt="BANG" class="sc-bqjOQT aUKrX"/><p>Bengaluru</p></span>
+                   <span onClick={()=>takecity("Hyderabad")}><img src="//in.bmscdn.com/m6/images/common-modules/regions/hyd.png" alt="HYD" class="sc-bqjOQT aUKrX"/><p>Hyderabad</p></span>
+                   <span onClick={()=>takecity("Ahmedabad")}><img src="//in.bmscdn.com/m6/images/common-modules/regions/ahd.png" alt="AHD" class="sc-bqjOQT aUKrX"/><p>Ahmedabad</p></span>
+                   <span onClick={()=>takecity("Chandigarh")}><img src="//in.bmscdn.com/m6/images/common-modules/regions/chd.png" alt="CHD" class="sc-bqjOQT aUKrX"/><p>Chandigarh</p></span>
+                   <span onClick={()=>takecity("Chennai")}><img src="//in.bmscdn.com/m6/images/common-modules/regions/chen.png" alt="CHEN" class="sc-bqjOQT aUKrX"/><p>Chennai</p></span>
+                   <span onClick={()=>takecity("Pune")}><img src="//in.bmscdn.com/m6/images/common-modules/regions/pune.png" alt="PUNE" class="sc-bqjOQT aUKrX"/><p>Pune</p></span>
+                   <span onClick={()=>takecity("Kolkata")}><img src="//in.bmscdn.com/m6/images/common-modules/regions/kolk.png" alt="KOLK" class="sc-bqjOQT aUKrX"/><p>Kolkata</p></span>
+                   <span onClick={()=>takecity("Kochi")}><img src="//in.bmscdn.com/m6/images/common-modules/regions/koch.png" alt="KOCH" class="sc-bqjOQT aUKrX"/><p>Kochi</p></span>
+
+                   </div>
+                   <span>View All Cities</span>
                </div>
              </div>
+             :""
            }
              <div className="navfirst">
                  <div className="navinside" >
@@ -166,7 +186,7 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
                   </span>
                  </div>
                  
-                 <div class="sc-eInJlc fIvCmI"><span className="selectcity">{"mumbai"} <span className="arrow-down "></span> </span><div class="sc-jKVCRD hmbjRr"><div onClick={signtoggle} class="sc-chbbiW bQENkS">Sign in</div><div class="sc-hzNEM hGOWBG"><svg onClick={menutoggle}  width="22px" height="14px" xmlns="http://www.w3.org/2000/svg"><title>Hamburger Menu</title><g fill-rule="nonzero" stroke="#FFF" stroke-width="1.5" fill="none" stroke-linecap="round"><path d="M1.611 1h20.614M1.611 7h20.614M1.611 13h20.614"></path></g></svg></div></div></div>
+                 <div class="sc-eInJlc fIvCmI"><span onClick={()=>takecity(null)} className="selectcity">{cities} <span className="arrow-down "></span> </span><div class="sc-jKVCRD hmbjRr"><div onClick={signtoggle} class="sc-chbbiW bQENkS">Sign in</div><div class="sc-hzNEM hGOWBG"><svg onClick={menutoggle}  width="22px" height="14px" xmlns="http://www.w3.org/2000/svg"><title>Hamburger Menu</title><g fill-rule="nonzero" stroke="#FFF" stroke-width="1.5" fill="none" stroke-linecap="round"><path d="M1.611 1h20.614M1.611 7h20.614M1.611 13h20.614"></path></g></svg></div></div></div>
                  </div>
                  <div className="navsecond">
 <span className="span1">

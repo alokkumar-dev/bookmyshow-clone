@@ -635,3 +635,50 @@ color: white;
   margin-left: 4px;
   margin-top: 2px;
 }
+.city{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(207, 200, 200, 0.12);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 20;
+}
+.cityinside{
+  margin-top: 100px;
+  width: 70%;
+  height: 350px;
+  background-color: white;
+  opacity: 1;
+  border-radius: 6px;
+  margin: 0;
+  margin-top: 100px;
+  padding: 10px;
+  text-align: center;
+}
+.citiesdiv{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+.citiesdiv>span{
+  width: 80px;
+  margin-left: 10px;
+  
+
+}
+.citiesdiv>span>img{
+  width: 100%;
+
+}
+.cityinside>span:nth-last-child(1){
+  color: red;
+  margin-top: 40px;
+}
+.cityinside>span:nth-last-child(2){
+color: white;
+  margin-top: 40px;
+}

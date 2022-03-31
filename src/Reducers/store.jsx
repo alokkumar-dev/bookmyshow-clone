@@ -1,10 +1,10 @@
 import { createStore,combineReducers } from "redux";
 
-
+import { cityreducer } from "./city/reducer";
 
 
 const rootreducer=combineReducers({
-
+city:cityreducer,
 })
 
 
