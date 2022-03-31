@@ -1,5 +1,6 @@
  import { useState } from "react";
 import { Link } from "react-router-dom"
+import { useDispatch,useSelector } from "react-redux";
  import styled from "styled-components";
  
  
@@ -145,6 +146,13 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
   </div>
 </div>
              </div>:""
+           }{
+             <div className="city">
+               <div className="cityinside">
+                 <span></span>
+                 <div><span><img src="//in.bmscdn.com/m6/images/common-modules/regions/mumbai.png" alt="MUMBAI" class="sc-bqjOQT aUKrX"/><p>Mumbai</p></span></div>
+               </div>
+             </div>
            }
              <div className="navfirst">
                  <div className="navinside" >
@@ -157,7 +165,8 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
                   <input type="text" placeholder="Search for Movies, Events, Plays, Sports and Activities"/>
                   </span>
                  </div>
-                 <div class="sc-eInJlc fIvCmI"><div class="sc-jKVCRD hmbjRr"><div onClick={signtoggle} class="sc-chbbiW bQENkS">Sign in</div><div class="sc-hzNEM hGOWBG"><svg onClick={menutoggle}  width="22px" height="14px" xmlns="http://www.w3.org/2000/svg"><title>Hamburger Menu</title><g fill-rule="nonzero" stroke="#FFF" stroke-width="1.5" fill="none" stroke-linecap="round"><path d="M1.611 1h20.614M1.611 7h20.614M1.611 13h20.614"></path></g></svg></div></div></div>
+                 
+                 <div class="sc-eInJlc fIvCmI"><span className="selectcity">{"mumbai"} <span className="arrow-down "></span> </span><div class="sc-jKVCRD hmbjRr"><div onClick={signtoggle} class="sc-chbbiW bQENkS">Sign in</div><div class="sc-hzNEM hGOWBG"><svg onClick={menutoggle}  width="22px" height="14px" xmlns="http://www.w3.org/2000/svg"><title>Hamburger Menu</title><g fill-rule="nonzero" stroke="#FFF" stroke-width="1.5" fill="none" stroke-linecap="round"><path d="M1.611 1h20.614M1.611 7h20.614M1.611 13h20.614"></path></g></svg></div></div></div>
                  </div>
                  <div className="navsecond">
 <span className="span1">

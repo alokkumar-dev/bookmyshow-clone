@@ -620,4 +620,18 @@ color: white;
                     justify-content: center;
                     align-items: center;
                      }
-                     
+.selectcity{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-down {
+  width: 0px; 
+  height: 0px; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid white;
+  margin-left: 4px;
+  margin-top: 2px;
+}
