@@ -5,6 +5,30 @@ import { useDispatch,useSelector } from "react-redux";
  import{addCity} from '../Reducers/city/action'
  
  export const Navbar=()=>{
+const [collectdata,collectingdata]=useState({
+email:"",
+password:""
+})
+const getting=(e)=>{
+  e.preventDefault()
+  const {id,value}=e.target;
+  collectingdata({
+    ...collectdata,
+     [id]:value,
+  })
+
+};
+
+
+const logging=(e)=>{
+  e.preventDefault()
+  console.log(collectdata)
+}
+const signuping=(e)=>{
+  e.preventDefault()
+  console.log(collectdata)
+}
+
 const dispatch=useDispatch()
 const takecity=(city)=>{
   dispatch(addCity(city))
@@ -91,13 +115,13 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
     <form className="logemail" action="">
     <label htmlFor="">Email</label>
     <br />
-    <input type="email" />
+    <input id="email" onChange={getting} type="email" />
     <br />
     <label htmlFor="">Password</label>
     <br />
-    <input type="text" />
+    <input id="password" onChange={getting} type="password" />
     <br />
-    <button type="submit" class="btnlogmail">Login</button>
+    <button onClick={logging} type="submit" class="btnlogmail">Login</button>
     <h3 onClick={()=>{
       emailtoggle()
       signuptoggle()
@@ -125,13 +149,13 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
               <form className="signupemail" action="">
               <label htmlFor="">Email</label>
               <br />
-              <input type="email" />
+              <input id="email" onChange={getting} type="email" />
               <br />
               <label htmlFor="">Password</label>
               <br />
-              <input type="text" />
+              <input id="password" onChange={getting} type="password" />
               <br />
-              <button type="submit" class="btnsignupmail">Sign up</button>
+              <button onClick={signuping} type="submit" class="btnsignupmail">Sign up</button>
             </form>
             </div>
           </div>:""
