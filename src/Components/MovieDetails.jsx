@@ -46,12 +46,12 @@ const About = styled.div`
 `
 
 const Ratings= styled.div`
-background-color: #333333;
-height: 90px;
-width: 450px;
-border-radius: 10px;
-display: flex;
-justify-content: space-evenly
+	background-color: #333333;
+	height: 90px;
+	width: 450px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-evenly
 `
 
  	return <div>

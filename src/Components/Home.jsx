@@ -6,7 +6,7 @@ import { store } from "../Redux/store";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const Recommended = () => {
+export const Home = () => {
 
 const [recommended, setRecommended] = useState([])
 const [entertainment, setEntertainment] = useState([])
