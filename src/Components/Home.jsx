@@ -5,6 +5,7 @@ import { addMovie } from "../Redux/action";
 import { store } from "../Redux/store";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import Carousel from "react-elastic-carousel";
 
 export const Home = () => {
 
@@ -138,20 +139,29 @@ const LaughImg = styled.img`
 	height: 80%;
 	border-radius: 10px
 `
+const breakPoints = [
+	{ width: 1, itemsToShow: 1 },
+	{ width: 350, itemsToShow: 2 },
+	{ width: 600, itemsToShow: 3 },
+	{ width: 850, itemsToShow: 4 },
+	{ width: 1050, itemsToShow: 5 },
+  ];
 
 	return (
 		<Home>
-			<h1>Movies</h1>
+			<h2 style={{marginLeft:"75px"}}>Recommended Movies</h2>
 			<Recommended>
-			{recommended.map((el) => {
-				return <Wrapper to={`/movies/${el.id}`} key={el.id} >
-					<Image src={el.imageUrl} />
-					<h4>{el.title}</h4>
-					<p style={{color: "gray"}}>{el.type}</p>
-					
+				<Carousel breakPoints={breakPoints}>
+					{recommended.map((el) => {
+						return <Wrapper to={`/movies/${el.id}`} key={el.id} >
+							<Image src={el.imageUrl} />
+							<h4>{el.title}</h4>
+							<p style={{color: "gray"}}>{el.type}</p>
+							
 
-				</Wrapper>
-			})}
+						</Wrapper>
+					})}
+				</Carousel>
 			</Recommended>
 
 			<AdImg src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/lead-in-v3-collection-202102040828.png" />
