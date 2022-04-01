@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux"
 import { addMovie } from "../Redux/action";
 import { store } from "../Redux/store";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Recommended = () => {
 
@@ -52,7 +53,7 @@ const Recommended = styled.div`
 `
 
 
-const Movie = styled.div`
+const Wrapper= styled(Link)`
 	width: 250px;
 	height: 100%;
 	margin-left: 30px
@@ -141,13 +142,13 @@ const LaughImg = styled.img`
 			<h1>Movies</h1>
 			<Recommended>
 			{recommended.map((el) => {
-				return <Movie key={el.id}>
+				return <Wrapper to={`/movies/${el.id}`} key={el.id} >
 					<Image src={el.imageUrl} />
 					<h4>{el.title}</h4>
 					<p>{el.type}</p>
 					
 
-				</Movie>
+				</Wrapper>
 			})}
 			<a class="prev" onclick="plusSlides(-1)">❮</a>
 			<a class="next" onclick="plusSlides(1)">❯</a>
