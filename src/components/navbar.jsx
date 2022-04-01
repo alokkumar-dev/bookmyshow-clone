@@ -33,6 +33,13 @@ const signuping=(e)=>{
     })
     .then(function (response) {
       console.log(response);
+      ()=>{
+        signuptoggle()
+      }
+      ()=>{
+        emailtoggle()
+      }
+      alert("Created account sucessfully")
     })
     .catch(function (error) {
       console.log(error);
