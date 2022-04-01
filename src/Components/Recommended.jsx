@@ -56,7 +56,9 @@ const Recommended = styled.div`
 const Wrapper= styled(Link)`
 	width: 250px;
 	height: 100%;
-	margin-left: 30px
+	margin-left: 30px;
+	color: black;
+	text-decoration: none;
 `
 
 const Image = styled.img`
@@ -145,13 +147,11 @@ const LaughImg = styled.img`
 				return <Wrapper to={`/movies/${el.id}`} key={el.id} >
 					<Image src={el.imageUrl} />
 					<h4>{el.title}</h4>
-					<p>{el.type}</p>
+					<p style={{color: "gray"}}>{el.type}</p>
 					
 
 				</Wrapper>
 			})}
-			<a class="prev" onclick="plusSlides(-1)">❮</a>
-			<a class="next" onclick="plusSlides(1)">❯</a>
 			</Recommended>
 
 			<AdImg src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/lead-in-v3-collection-202102040828.png" />
