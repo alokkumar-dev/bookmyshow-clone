@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import { useDispatch,useSelector } from "react-redux";
  import styled from "styled-components";
  import{addCity} from '../Reducers/city/action'
+ import{addToken} from '../Reducers/tokenkey/action'
  import axios from "axios";
  export const Navbar=()=>{
 const [collectdata,collectingdata]=useState({
@@ -29,7 +30,8 @@ const logging=(e)=>{
     .then(function (response) {
       console.log(response);
         emailtoggle()
-      
+        dispatch(addToken(response.data.token))
+        
     })
     .catch(function (error) {
       console.log(error);
@@ -67,6 +69,9 @@ const takecity=(city)=>{
 }
 const cities=useSelector((store)=>
 store.city.city
+)
+const tokens=useSelector((store)=>
+store.token.token
 )
   const [sign,signdiv]=useState(false)
   const [email,emaildiv]=useState(false)
@@ -198,13 +203,16 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
     <h1>Hey!</h1>
   </div>
   <div className="menufooter">
-  <div><span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="1 0 22 22"><path fill="#666" fill-rule="evenodd" d="M13.977 5.094l.002.002-.005-.002v.001l-.021-.005.206.045A5.002 5.002 0 0 1 18 10v6.974L20 19h-2l-3.55-.001a2.5 2.5 0 1 1-4.9 0L7.027 19v.004h-3L6 17.003V10a5.002 5.002 0 0 1 4.048-4.91l-.049.01L10 4a2 2 0 1 1 4 0l.001 1.1-.008-.002-.035-.008.018.004zm-.563 13.905h-2.829a1.5 1.5 0 1 0 2.83 0zM13 6h-2a4 4 0 0 0-4 4v6.978L7.014 18H17v-8a4 4 0 0 0-4-4zm.983-.904l.003.001.007.001-.008-.001-.002-.001zm-.002 0h.002l-.005-.002.003.002zm-.28-.047l.112.017.018.002-.13-.019zm-3.388-.003l-.057.009.036-.005.02-.004zm.267-.029l-.172.018.148-.016.024-.002zm2.928.008l.082.01a5.014 5.014 0 0 0-.082-.01zm-2.803-.016l-.125.008h.015l.11-.008zm2.538-.003h.013l.05.003-.063-.003zM12 3a1 1 0 0 0-1 1v1h2V4a1 1 0 0 0-1-1z"></path></svg></span><span>Notifications</span><span>></span></div>
-  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/purchasehistory.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Purchase History <br />  View all your bookings & purchases</p></span><span>></span></div>
-  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/streamlibrary.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Stream Library<br />Rented & Purchased Movies</p></span><span>></span></div>
-  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/helpandsupport.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Help & Support<br />View commonly asked queries and Chat</p></span><span>></span></div>
-  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/accountandsettings.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Accounts & Settings<br />Location, Payments, Addresses & More</p></span><span>></span></div>
-  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/rewards.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Rewards<br />View your rewards & unlock new ones</p></span><span>></span></div>
-  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/bookasmile.png" class="sc-gRnDUn gMMdZt"/></span><span>BookASmile</span><span>></span></div>
+  <div><span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="1 0 22 22"><path fill="#666" fill-rule="evenodd" d="M13.977 5.094l.002.002-.005-.002v.001l-.021-.005.206.045A5.002 5.002 0 0 1 18 10v6.974L20 19h-2l-3.55-.001a2.5 2.5 0 1 1-4.9 0L7.027 19v.004h-3L6 17.003V10a5.002 5.002 0 0 1 4.048-4.91l-.049.01L10 4a2 2 0 1 1 4 0l.001 1.1-.008-.002-.035-.008.018.004zm-.563 13.905h-2.829a1.5 1.5 0 1 0 2.83 0zM13 6h-2a4 4 0 0 0-4 4v6.978L7.014 18H17v-8a4 4 0 0 0-4-4zm.983-.904l.003.001.007.001-.008-.001-.002-.001zm-.002 0h.002l-.005-.002.003.002zm-.28-.047l.112.017.018.002-.13-.019zm-3.388-.003l-.057.009.036-.005.02-.004zm.267-.029l-.172.018.148-.016.024-.002zm2.928.008l.082.01a5.014 5.014 0 0 0-.082-.01zm-2.803-.016l-.125.008h.015l.11-.008zm2.538-.003h.013l.05.003-.063-.003zM12 3a1 1 0 0 0-1 1v1h2V4a1 1 0 0 0-1-1z"></path></svg></span><span>Notifications</span><span></span></div>
+  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/purchasehistory.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Purchase History <br />  View all your bookings & purchases</p></span><span></span></div>
+  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/streamlibrary.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Stream Library<br />Rented & Purchased Movies</p></span><span></span></div>
+  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/helpandsupport.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Help & Support<br />View commonly asked queries and Chat</p></span><span></span></div>
+  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/accountandsettings.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Accounts & Settings<br />Location, Payments, Addresses & More</p></span><span></span></div>
+  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/rewards.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Rewards<br />View your rewards & unlock new ones</p></span><span></span></div>
+  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/bookasmile.png" class="sc-gRnDUn gMMdZt"/></span><span>BookASmile</span><span></span></div>
+  {tokens ?<button onClick={()=>{
+    dispatch(addToken(null))
+  }}  style={{'padding':'14px',width:'300px',marginTop:'100px',color:"#f84464",fontSize:'20px',backgroundColor:'transparent',borderColor:'#f84464'}}>Signout</button>:"" }
   </div>
 </div>
              </div>:""
@@ -242,7 +250,7 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
                   </span>
                  </div>
                  
-                 <div class="sc-eInJlc fIvCmI"><span onClick={()=>takecity(null)} className="selectcity">{cities} <span className="arrow-down "></span> </span><div class="sc-jKVCRD hmbjRr"><div onClick={signtoggle} class="sc-chbbiW bQENkS">Sign in</div><div class="sc-hzNEM hGOWBG"><svg onClick={menutoggle}  width="22px" height="14px" xmlns="http://www.w3.org/2000/svg"><title>Hamburger Menu</title><g fill-rule="nonzero" stroke="#FFF" stroke-width="1.5" fill="none" stroke-linecap="round"><path d="M1.611 1h20.614M1.611 7h20.614M1.611 13h20.614"></path></g></svg></div></div></div>
+                 <div class="sc-eInJlc fIvCmI"><span onClick={()=>takecity(null)} className="selectcity">{cities} <span className="arrow-down "></span> </span><div class="sc-jKVCRD hmbjRr">{tokens ? "" : <div onClick={signtoggle}  class="sc-chbbiW bQENkS">Sign in</div> }{tokens ? <h4 style={{color:"white","display":"flex","alignItems":"center"}} onClick={menutoggle}><img style={{width:"30px",height:"30px","margin-right":"10px"}} src="//in.bmscdn.com/m6/images/my-profile/bms-user.png" alt="Profile" class="sc-kxynE fLWHdD"/>Hi,User</h4>:<div class="sc-hzNEM hGOWBG"><svg onClick={menutoggle}  width="22px" height="14px" xmlns="http://www.w3.org/2000/svg"><title>Hamburger Menu</title><g fill-rule="nonzero" stroke="#FFF" stroke-width="1.5" fill="none" stroke-linecap="round"><path d="M1.611 1h20.614M1.611 7h20.614M1.611 13h20.614"></path></g></svg></div>} </div></div>
                  </div>
                  <div className="navsecond">
 <span className="span1">
