@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { useDispatch,useSelector } from "react-redux";
  import styled from "styled-components";
  import{addCity} from '../Reducers/city/action'
- 
+ import axios from "axios";
  export const Navbar=()=>{
 const [collectdata,collectingdata]=useState({
 email:"",
@@ -26,7 +26,18 @@ const logging=(e)=>{
 }
 const signuping=(e)=>{
   e.preventDefault()
-  console.log(collectdata)
+
+    axios.post('https://bookmyshow-clone-fw14.herokuapp.com/register', {
+      email: collectdata.email,
+      password: collectdata.password
+    })
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+  
 }
 
 const dispatch=useDispatch()
