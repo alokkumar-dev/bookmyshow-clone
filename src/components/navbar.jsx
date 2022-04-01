@@ -22,7 +22,18 @@ const getting=(e)=>{
 
 const logging=(e)=>{
   e.preventDefault()
-  console.log(collectdata)
+  axios.post('https://bookmyshow-clone-fw14.herokuapp.com/login', {
+      email: collectdata.email,
+      password: collectdata.password
+    })
+    .then(function (response) {
+      console.log(response);
+        emailtoggle()
+      
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
 }
 const signuping=(e)=>{
   e.preventDefault()
@@ -33,16 +44,19 @@ const signuping=(e)=>{
     })
     .then(function (response) {
       console.log(response);
-      ()=>{
+      
         signuptoggle()
-      }
-      ()=>{
+      
+      
         emailtoggle()
-      }
+      
+      document.getElementById("email").value=response.data.email
       alert("Created account sucessfully")
     })
     .catch(function (error) {
       console.log(error);
+      alert("Try another email")
+      document.getElementById("password").value=""
     });
   
 }
