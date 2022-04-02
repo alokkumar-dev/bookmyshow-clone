@@ -265,7 +265,7 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
 <span className="span2">
 <Link to="/" style={linksecond}><p style={linkNew} >NEW</p>ListYourShow</Link>
 <Link to="/" style={linksecond}>Corporates </Link>
-<Link to="/" style={linksecond}>Offers</Link>
+<Link to="/offers" style={linksecond}>Offers</Link>
 <Link to="/" style={linksecond}>Gift Cards</Link>
 </span>
                  </div>
