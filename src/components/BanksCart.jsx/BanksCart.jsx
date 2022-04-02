@@ -1,4 +1,5 @@
-import "./BankCart.css";
+// import laptop from "../../svg/laptop.svg";
+import "./BankCart.css"
 export const BanksCart = () => {
   const bankCarts = [
     {
@@ -17,31 +18,32 @@ export const BanksCart = () => {
       id: 2,
       imgUrl:
         "https://in.bmscdn.com/offers/offerlisting/sbi-inr-500-off-on-signature-credit-card-sbi0613.jpg?06122021123523",
-      bankName: "ICICI BANK CREDIT CARD 25...",
+      bankName: "SBI Signature/elite credit card offer",
       validity: "Valid till 30 Apr 2022 23:59",
       logo: "https://in.bmscdn.com/offers/tnclogo/sbi-inr-500-off-on-signature-credit-card-sbi0613.jpg?06122021123523",
       about: "About Offer",
-      detail: "Get 2 free movie tickets per month or INR 500 off whichever is less with SBI Signature/Elite credit card",
+      detail:
+        "Get 2 free movie tickets per month or INR 500 off whichever is less with SBI Signature/Elite credit card",
     },
     {
       id: 3,
       imgUrl:
         "https://in.bmscdn.com/offers/offerlisting/aurum-credit-card-offer-sbispr0420.jpg?05022021115435",
-      bankName: "ICICI BANK CREDIT CARD 25...",
+      bankName: "AURUM Credit  Card Offer",
       validity: "Valid till 30 Apr 2022 23:59",
       logo: "https://in.bmscdn.com/offers/tnclogo/aurum-credit-card-offer-sbispr0420.jpg?05022021115436",
       about: "About Offer",
-      detail: "ICICI Bank Credit Card 25% discount Offer",
+      detail: "Get 4 movie tickets or INR 1000 once a month with AURUM credit card.",
     },
     {
       id: 4,
       imgUrl:
         "https://in.bmscdn.com/offers/offerlisting/icici-bank-complimentary-offer-iciccom520.jpg?29122021183443",
-      bankName: "ICICI BANK CREDIT CARD 25...",
+      bankName: "ICICI BANK Complimentary tickets Offer",
       validity: "Valid till 30 Apr 2022 23:59",
       logo: "https://in.bmscdn.com/offers/tnclogo/icici-bank-25percent-discount-offer-icicicc520.jpg?29122021183444",
       about: "About Offer",
-      detail: "ICICI Bank Credit Card 25% discount Offer",
+      detail: "ICICI Bank Complimentary tickets Offer",
     },
     {
       id: 5,
@@ -305,12 +307,14 @@ export const BanksCart = () => {
     },
   ];
   // write house hover funtion here....
-  const mouseOver = () => {
-    let change = document.querySelector(".onImageTextDiv");
+  const mouseOver = (i) => {
+    let change = document.getElementById(i);
     change.style.display = "block";
   };
-  const mouseOut = () => {
-    let change = document.querySelector(".onImageTextDiv");
+  const mouseOut = (i) => {
+    let change = document.getElementById(i);
+  
+
     change.style.display = "none";
   };
 
@@ -319,15 +323,17 @@ export const BanksCart = () => {
       {bankCarts.map((el, i) => (
         <div
           className="bankOneCart"
-          onMouseOver={mouseOver}
-          onMouseOut={mouseOut}
+          onMouseOver={()=>{mouseOver(i)}}
+          onMouseOut={()=>{mouseOut(i)}}
+
         >
           <div className="imgDiv">
             <img src={el.imgUrl} alt="" />
-            <div className="onImageTextDiv">
+            <div className="onImageTextDiv"  id={i} >
               <h3>{el.about}</h3>
               <div className="hrDiv"></div>
               <p>{el.detail}</p>
+              {/* <img src={laptop} alt="laptop" width={"20px"} height={"20px"}  /> */}
             </div>
             <div className="bankLogo">
               <img src={el.logo} alt="" />
