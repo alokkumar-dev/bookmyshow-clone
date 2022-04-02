@@ -255,7 +255,7 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
                  <div className="navsecond">
 <span className="span1">
 <Link to="/movies" style={linkStyle}>Movies</Link>
-<Link to="/" style={linkStyle}><p style={linkNew} >NEW</p>Stream </Link>
+<Link to="/payment" style={linkStyle}><p style={linkNew} >NEW</p>Stream </Link>
 <Link to="/" style={linkStyle}>Events</Link>
 <Link to="/" style={linkStyle}>Plays</Link>
 <Link to="/" style={linkStyle}>Sports</Link>
