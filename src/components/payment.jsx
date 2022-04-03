@@ -38,26 +38,11 @@ store.product.product
 )
 
 const bookmovie=()=>{
-    console.log(movie)
-    console.log(product)
-    axios.post('https://bookmyshow-clone-fw14.herokuapp.com/bag', {
-        userid: product,
-        title: movie.title,
-        img:movie.imageUrl,
-        amount:mk+lk
-
-      })
-      .then(function (response) {
-        console.log(response);
+    
         alert("Paymet Sucessfull")
         navigate('/')
         
-      })
-      .catch(function (error) {
-        
-        console.log(error);
-      });
-    
+      
 }
     return(
         
