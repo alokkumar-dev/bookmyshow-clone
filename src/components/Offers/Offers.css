@@ -1,8 +1,13 @@
+.inputBox{
+    padding: 7px 20px;
+    margin-left: 10%;
+    margin-top: 10px;
+}
 .Offer_containter{
     width: 100%;
     margin: auto;
     height: auto;
-    margin-bottom: 200px;
+    margin-bottom: 20%;
     /* border: 2px solid blue; */
 }
 .CartMainDiv{
@@ -16,7 +21,6 @@
 }
 .CartMainDiv>h4{
     font-weight: 400;
-    /* word-spacing: 10px; */
     letter-spacing: 5px;
     font-size: 18px;
     color: #666;
@@ -27,7 +31,6 @@
     width: 100%;
  
     padding-top: 20px;    
-    /* border: 2px solid red; */
     background-color: #f2f2f2;
 }
 .BanksCart{
