@@ -4,7 +4,7 @@ This is clone of BookMyShow.com.We have used HTML, CSS, Advance Javascript, Reac
 In this project we have tried to clone the “BookMyShow” website. We had build up all our efforts to do our best in this project. As, the Masai School's Mentorship  was specifically to build up our skills and we also accordingly implemented all that teachings in our project to look it at its best.
 
 # Deployed Link:
-*https://sleepy-scrubland-64819.herokuapp.com/home*
+*https://bookmyshow-clone-eight.vercel.app/*
 # Blog Link: 
 *https://medium.com/@alokkumar-dev/bookmyshow-clone-website-78d5e03a27b4*
 # Repository Link:#
