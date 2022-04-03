@@ -28,11 +28,11 @@ export const Home = () => {
       console.log("Ent", res.data);
       setEntertainment(res.data);
     });
-    axios.get("http://localhost:5000/premiere").then((res) => {
+    axios.get("https://bookmyshow-clone-fw14.herokuapp.com/premiere").then((res) => {
       console.log("Ent", res.data);
       setPremiere(res.data);
     });
-    axios.get("http://localhost:5000/laughter").then((res) => {
+    axios.get("https://bookmyshow-clone-fw14.herokuapp.com/laughter").then((res) => {
       console.log("Ent", res.data);
       setLaughter(res.data);
     });
