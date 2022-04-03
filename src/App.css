@@ -1003,3 +1003,7 @@ margin-left: 5%;
   height: 600px;
 
 }
+.menuheader>{
+  display: flex;
+  justify-content: flex-start;
+}
