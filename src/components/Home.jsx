@@ -24,7 +24,7 @@ export const Home = () => {
       console.log(res.data);
       setRecommended(res.data);
     });
-    axios.get("https://bookmyshow-clone-fw14.herokuapp.com/entertainment").then((res) => {
+    axios.get("https://bookmyshow-clone-fw14.herokuapp.com/entertainments").then((res) => {
       console.log("Ent", res.data);
       setEntertainment(res.data);
     });
