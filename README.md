@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Book My Show
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is clone of BookMyShow.com.We have used HTML, CSS,Advance Javascript, React and Redux to acheive this.
+In this project we have tried to clone the “BookMyShow” website. We had build up all our efforts to do our best in this project. As, the Masai School's Mentorship  was specifically to build up our skills and we also accordingly implemented all that teachings in our project to look it at its best.
 
-## Available Scripts
+# Deployed Link:
 
-In the project directory, you can run:
+https://sleepy-scrubland-64819.herokuapp.com/home
+ 
+# Snapshots
 
-### `npm start`
+![Screenshot (1256)](https://user-images.githubusercontent.com/66282953/158457493-462de7f8-3014-405e-8c8f-47aa480df142.png)
+![Screenshot (1257)](https://user-images.githubusercontent.com/66282953/158457525-e5cb0a0a-0f79-4c5d-93a7-68ee6b882b07.png)
+![Screenshot (1258)](https://user-images.githubusercontent.com/66282953/158457556-bf2c5cc9-e65a-40df-b6a7-c05b0608f2eb.png)
+![Screenshot (1259)](https://user-images.githubusercontent.com/66282953/158457643-21859235-57b7-4323-8359-16dbeb109a52.png)
+![Screenshot (1260)](https://user-images.githubusercontent.com/66282953/158457657-93ac8be7-c6fe-4763-8765-4d83196eb2ed.png)
+![Screenshot (1261)](https://user-images.githubusercontent.com/66282953/158457685-9d124088-b09a-412b-8dd2-98202b50b037.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Technology We Used :computer: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. HTML5
+2. CSS3
+3. Advanced JavaScript
+4. React
+5. Redux
 
-### `npm test`
+# Features
+1. It is a Sinle Page Application.
+2. You will be able to create your account using login and signup option, used API calls for validating user credentials.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Used Reusable Components in landing page such that it can be reused in any other pages easily without repeatation.
 
-### `npm run build`
+3. You can choose a movie which you want to book.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. One can Sort and Filter the product according to the gender and brand of different products.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. All the data is stored in the back-end data of the User. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instructions to Run the Code 
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Clone my repository `https://github.com/alokkumar-dev/bookmyshow-clone`
+- Open that code in your VS code `App.jsx`
+- Run the `App.jsx` on browser
+- Then you can Navigate through other pages from Landing page.
