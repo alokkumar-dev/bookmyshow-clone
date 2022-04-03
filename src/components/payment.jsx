@@ -33,10 +33,12 @@ const payit=()=>{
     seatselect(!seats)
 }
 const product=useSelector((store)=>
+
 store.product.product
 )
 
 const bookmovie=()=>{
+    console.log(product)
     axios.post('https://bookmyshow-clone-fw14.herokuapp.com/bag', {
         userid: product,
         title: movie.title,
@@ -50,6 +52,7 @@ const bookmovie=()=>{
         navigate("/purchase")
       })
       .catch(function (error) {
+        
         console.log(error);
       });
     
