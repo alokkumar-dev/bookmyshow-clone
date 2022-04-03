@@ -576,6 +576,13 @@ svg:not(:root) {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+
+}
+.menuheader>h1:nth-last-child(1) {
+  margin-left: 330px;
+  font-weight: 100;
+  cursor: pointer;
+
 }
 .menuheader > h1 {
   margin-left: 10px;
@@ -685,7 +692,7 @@ svg:not(:root) {
 }
 .seconddivpayment {
   width: 30%;
-  height: 100%;
+  height: auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 10px;
 }
@@ -814,8 +821,9 @@ svg:not(:root) {
   text-align: left;
 }
 .jiohvfd {
-  padding: 30px;
+  padding: 20px;
   width: 100%;
+  margin: 0;
 }
 .kjhsdkhf {
   width: 100%;
@@ -836,10 +844,162 @@ svg:not(:root) {
 .ghdsj {
   display: flex;
   justify-content: flex-start;
+  background-color: #f6f6f6;
+  width: 90%;
+  padding: 10px;
 }
 .ghdsj > div:nth-last-child(1) > p:nth-last-child(1) {
   margin-left: 122px;
+  font-size: 12px;
+  color: red;
 }
 .ghdsj > div:nth-last-child(1) > p:nth-last-child(2) {
   margin-left: 122px;
+  font-weight: 600;
+}
+.ghdsj > div:nth-last-child(2) > p:nth-last-child(3) {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.ghdsj > div:nth-last-child(2) > p:nth-last-child(1) {
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.lkhyty{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  background-color: #efefad;
+  width: 95%;
+}
+.lkhyty>span:nth-last-child(2){
+ margin-right: 50px;
+ margin-left: 0px;
+ display: flex;
+ align-items: center;
+}
+.lkhyty>span:nth-last-child(1){
+  
+  display: flex;
+  align-items: center;
+ }
+ .uidsfiugf{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #f84464;
+   color: white;
+   font-weight: 500;
+   font-size: 20px;
+   margin-top: 10px;
+   height: 50px;
+   border-radius: 5px;
+   width: 70%;
+   margin-left: 12%;
+ }
+ .ticketdiv {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(207, 200, 200, 0.9);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+.ticketpop {
+  margin-top: 50px;
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  opacity: 1;
+  border-radius: 6px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+}
+.ticketpop>span>span {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 100%;
+  font-weight: 500;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+.ticketpop>span {
+  margin-top: 100px;
+width: 90%;
+display: flex;
+justify-content: space-around;  
+margin-left: 5%;
+  
+}
+.ticketpop>span>span:hover {
+  background-color: #f84464;
+  color: white;
+  font-weight: 500;
+  
+}
+.kjvfsfli{
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.kjvfsfln{
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: 600;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 50px;
+  color:white;
+  background-color:#f84464 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+.kjvfsfla{
+  font-size: 30px;
+  margin-top: 30px;
+  font-weight: 600;
+  width: 40%;
+  margin-left: 30%;
+  border-radius: 50px;
+  color:white;
+  background-color:#f84464 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+.purchase{
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.purfirst{
+  width: 40%;
+  height: auto;
+}
+.pursecond{
+  width: 60%;
+  height: auto;
+  border: solid  5px black;
+  height: 600px;
+
 }

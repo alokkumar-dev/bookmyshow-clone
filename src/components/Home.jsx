@@ -20,7 +20,7 @@ export const Home = () => {
   }, []);
 
   const getMovies = () => {
-    axios.get("http://localhost:5000/movies").then((res) => {
+    axios.get("https://bookmyshow-clone-fw14.herokuapp.com/movies").then((res) => {
       console.log(res.data);
       setRecommended(res.data);
     });

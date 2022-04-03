@@ -4,8 +4,12 @@ import axios from "axios";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faHeart} from "@fortawesome/free-solid-svg-icons"
-
+import { useNavigate } from "react-router-dom";
+import{addToken} from '../Reducers/tokenkey/action'
+import { useDispatch,useSelector } from "react-redux";
 export const MovieDetails = () => {
+	const navigate = useNavigate();
+
 	const {id} = useParams();
 	const [movie, setMovie] = useState({})
 
@@ -19,7 +23,9 @@ const getMovies = () => {
 		// console.log(res.data)
 	})
 }
-
+const tokens=useSelector((store)=>
+store.token.token
+)
 const Left = styled.div`
 	height: 80%;
 	width: 20%;
@@ -78,7 +84,10 @@ const Ratings= styled.div`
 			<div style={{height: "30px", width: "350px", backgroundColor: "white", marginTop: "20px", borderRadius: "3px", fontWeight:"bold", color:"black"}}>{movie.language}</div>
 
 				<p style={{fontWeight: "bold", color: "white"}}>{movie.duration} {movie.type} . {movie.movieType} . {movie.release}</p>
-				<button style={{width:"200px", height:"50px", borderRadius:"10px", border: "none", backgroundColor:"#eb4e62", color:"white", fontSize:"15px", fontWeight:"bold"}}>Book Tickets</button>
+				<button onClick={()=>{
+					{tokens ?navigate(`/payment/${movie.id}`):alert("Sign in first to book tickets")}
+					
+				}}  style={{width:"200px", height:"50px", borderRadius:"10px", border: "none", backgroundColor:"#eb4e62", color:"white", fontSize:"15px", fontWeight:"bold"}}>Book Tickets</button>
 			
 		</Right>
       </div>

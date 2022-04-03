@@ -1,5 +1,5 @@
 {
-  "movies":[
+  "movies": [
     {
       "id": 1,
       "imageUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@heart_202006300400.png,ox-24,oy-617,ow-29:ote-OTElICA0MzdrIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00094579-gsftrcbumj-portrait.jpg",
@@ -10,7 +10,7 @@
       "ratings": "437.5k",
       "screenType": "2D,IMAX 2D,3D,IMAX 3D",
       "language": "Telugu, Hindi, Malyalam, Kannada, Tamil",
-      "movieType" : "UA",
+      "movieType": "UA",
       "about": "RRR is a period drama set in India during the 1920s, revolving around the inspiring journey of two of India`s freedom fighters - Alluri Sitarama Raju and Komaram Bheem.",
       "backgroundImage": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/rrr-et00094579-29-03-2022-03-23-44.jpg"
     },
@@ -24,7 +24,7 @@
       "ratings": "511k",
       "screenType": "2D",
       "language": "Hindi",
-      "movieType" : "A",
+      "movieType": "A",
       "about": "The Kashmir Files` is a true story, based on video interviews of the first generation victims of the Genocide of Kashmiri Pandit Community In 1990.",
       "backgroundImage": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/the-kashmir-files-et00110845-24-02-2022-03-28-20.jpg"
     },
@@ -38,7 +38,7 @@
       "ratings": "46.4k",
       "screenType": "2D",
       "language": "Hindi",
-      "movieType" : "UA",
+      "movieType": "UA",
       "about": "Myra Devekar is an aspiring director who has a fallout with her director. She gets the support of her producer and is given a task by him to come up with a gripping gangster biopic flick infested with heavy dosage of violence. Myra gets an idea that will `kill two birds with one stone` by making a biopic on a real life gangster! Satisfying the producers need for commercialism and her hunger for making a realistic film. Her extensive research only leads to one name, the most menacing, one eyed `Bachchan Pandey` of Baagwa, a ruthless gangster surrounded by quirky yet scary henchmen. Myra discreetly tries her best to find out about Bachchan Pandey, with the help of an old friend who resides in Baagwa, so that he can help gather more information to develop a film script, but fails miserably in all her attempts. However when she finally gets the chance to gain an insight into Bachchan`s life and ends up getting caught by Bachchan Pandey. What happens next in this twist of tales takes us on a roller coaster ride.",
       "backgroundImage": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/bachchhan-paandey-et00108170-16-03-2022-11-44-30.jpg"
     },
@@ -52,7 +52,7 @@
       "ratings": "42k",
       "screenType": "2D",
       "language": "Hindi",
-      "movieType" : "UA",
+      "movieType": "UA",
       "about": "Witness the rise of an ex-army soldier as he realizes his destiny and comes to terms as India`s first super soldier created to combat the rampant terror around.",
       "backgroundImage": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/attack--part-1-et00107994-25-03-2022-11-48-08.jpg"
     },
@@ -66,7 +66,7 @@
       "ratings": "57.7k",
       "screenType": "2D,4DX,2D SCREEN X,MX4D,IMAX 2D",
       "language": "Hindi,English,Telugu,Tamil",
-      "movieType" : "UA",
+      "movieType": "UA",
       "about": "Based on Spider-Man comics, this is a tale of a scientist who attempts to cure himself of a rare blood disease. As fate would have it, he instead ends up afflicting himself with a condition similar to a vampire including the thirst for blood, fangs and super strength, eventually becoming one of Spider-Man's nemeses.",
       "backgroundImage": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/morbius-et00078838-03-03-2022-03-57-24.jpg"
     },
@@ -80,7 +80,7 @@
       "ratings": "131.2k",
       "screenType": "2D",
       "language": "Hindi,Telugu",
-      "movieType" : "UA",
+      "movieType": "UA",
       "about": "A true story, based on the book `Mafia Queens of Mumbai` written by S. Hussain Zaidi, is a film that celebrates the rise of a simple girl from Kathiawad who had no choice but to embrace the ways of destiny and swing it in her favour. The narrative walks through the life of young Ganga who in no time marks her ownterritory and becomes Gangubai - The Matriarch of Kamathipura. Once again, Sanjay Leela Bhansali brings to his audience a moving yet stem-winding story with a power packed performance from Alia Bhatt and Ajay Devgn featured in a special role laced in his magical musical notes. With a promise to make one and all feel inspired in 2021 as Gangubai Kathiawadi celebrates the journey of a girl who became the voice for women empowerment.",
       "backgroundImage": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/gangubai-kathiawadi-et00114897-22-02-2022-01-07-14.jpg"
     },
@@ -94,7 +94,7 @@
       "ratings": "92.1k",
       "screenType": "2D,4DX,2D SCREEN X,MX4D,IMAX 2D",
       "language": "Hindi,English,Telugu,Tamil",
-      "movieType" : "UA",
+      "movieType": "UA",
       "about": "Two years of stalking the streets as the Batman (Robert Pattinson), striking fear into the hearts of criminals, has led Bruce Wayne deep into the shadows of Gotham City. With only a few trusted allies-Alfred Pennyworth (Andy Serkis), Lt. James Gordon (Jeffrey Wright) -amongst the city`s corrupt network of officials and high-profile figures, the lone vigilante has established himself as the sole embodiment of vengeance amongst his fellow citizens.",
       "backgroundImage": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/the-batman-et00129624-31-01-2022-02-23-17.jpg"
     },
@@ -108,7 +108,7 @@
       "ratings": "1.1k",
       "screenType": "2D",
       "language": "English",
-      "movieType" : "UA",
+      "movieType": "UA",
       "about": "Based on a true story, King Richard centers on Richard Williams, a hardscrabble but iron-willed father of Venus and Serena Williams who had a plan to make his daughters the greatest tennis players in the world.",
       "backgroundImage": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/king-richard-et00122565-05-10-2021-01-03-35.jpg"
     },
@@ -122,7 +122,7 @@
       "ratings": "25k",
       "screenType": "2D",
       "language": "English,Telugu,Tamil,Hindi",
-      "movieType" : "UA",
+      "movieType": "UA",
       "about": "Professor Albus Dumbledore (Jude Law) knows the powerful Dark wizard Gellert Grindelwald (Mads Mikkelsen) is moving to seize control of the wizarding world. Unable to stop him alone, he entrusts Magizoologist Newt Scamander (Eddie Redmayne) to lead an intrepid team of wizards, witches and one brave Muggle baker on a dangerous mission, where they encounter old and new beasts and clash with Grindelwald`s growing legion of followers. But with the stakes so high, how long can Dumbledore remain on the sidelines?",
       "backgroundImage": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/fantastic-beasts-the-secrets-of-dumbledore-et00319643-11-03-2022-06-36-27.jpg"
     },
@@ -136,46 +136,47 @@
       "ratings": "71.1k",
       "screenType": "2D,4DX,2D SCREEN X,MX4D,IMAX 2D",
       "language": "English,Telugu,Tamil,Hindi,Kannada",
-      "movieType" : "UA",
+      "movieType": "UA",
       "about": "When Dr. Strange`s spell to restore Spider-Man`s identity goes awry, Peter is forced to overcome his greatest challenge yet.",
       "backgroundImage": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/spider-man-no-way-home-et00310790-15-03-2022-10-22-50.jpg"
     }
   ],
-  "entertainment":[
+  "entertainment": [
     {
-      "id":1,
-    "url": "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTA1KyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/workshops-collection-202007231330.png"
-    },{
-      "id":2,
+      "id": 1,
+      "url": "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTA1KyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/workshops-collection-202007231330.png"
+    },
+    {
+      "id": 2,
       "url": "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-OCBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/fitness-collection-2020081150.png"
     },
     {
-      "id":3,
-      "url":"https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/kids-collection-202007220710.png"
+      "id": 3,
+      "url": "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/kids-collection-202007220710.png"
     },
     {
       "id": 4,
       "url": "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTEwKyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/comedy-shows-collection-202007220710.png"
     },
     {
-      "id":5,
+      "id": 5,
       "url": "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTUrIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/music-shows-collection-202007220710.png"
     }
   ],
-  "premiere":[
+  "premiere": [
     {
-      "id":1,
-    "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20:q-80/et00137315-mteuxkwqmj-portrait.jpg",
-    "title": "Voyagers"
+      "id": 1,
+      "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20:q-80/et00137315-mteuxkwqmj-portrait.jpg",
+      "title": "Voyagers"
     },
     {
-      "id":2,
+      "id": 2,
       "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20:q-80/et00317616-sfngaglcau-portrait.jpg",
       "title": "The Assasination of JFK"
     },
     {
-      "id":3,
-      "url":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00133391-xbqyscqxla-portrait.jpg",
+      "id": 3,
+      "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00133391-xbqyscqxla-portrait.jpg",
       "title": "The Matrix Ressurections"
     },
     {
@@ -184,41 +185,73 @@
       "title": "GAIA"
     },
     {
-      "id":5,
+      "id": 5,
       "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20:q-80/et00324331-jxgachatch-portrait.jpg",
       "title": "City of Spies"
     }
   ],
-  "laughter":[
+  "laughter": [
     {
-      "id":1,
-    "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAxIEFwciBvbndhcmRz,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00145294-sbmfvvqqeb-portrait.jpg",
-    "title": "Jo Bolta Hai Wohi Hota Hai feat Harsh Gujral",
-    "club" : "MIC Drop: Delhi"
+      "id": 1,
+      "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAxIEFwciBvbndhcmRz,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00145294-sbmfvvqqeb-portrait.jpg",
+      "title": "Jo Bolta Hai Wohi Hota Hai feat Harsh Gujral",
+      "club": "MIC Drop: Delhi"
     },
     {
-      "id":2,
+      "id": 2,
       "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAzIEFwcg%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00324866-aretcqfjbl-portrait.jpg",
       "title": "Amit Tandon Live",
-      "club" : "The Laugh Store: Delhi"
+      "club": "The Laugh Store: Delhi"
     },
     {
-      "id":3,
-      "url":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-TW9uLCA0IEFwciBvbndhcmRz,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00319088-rrrvgdkqvc-portrait.jpg",
+      "id": 3,
+      "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-TW9uLCA0IEFwciBvbndhcmRz,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00319088-rrrvgdkqvc-portrait.jpg",
       "title": "Jo Bolta Hai Wohi Hota Hai feat Harsh Gujral",
-      "club" : "Auro Kitchen and Bar: New Delhi"
+      "club": "Auro Kitchen and Bar: New Delhi"
     },
     {
       "id": 4,
       "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAxMCBBcHI%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00313122-twqgsphlfd-portrait.jpg",
       "title": "Gaurav Kapoor Live",
-      "club" : "Studio XO Bar: Gurgaon"
+      "club": "Studio XO Bar: Gurgaon"
     },
     {
-      "id":5,
+      "id": 5,
       "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAxMCBBcHIgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00321882-wzxhhajugm-portrait.jpg",
       "title": "Gaurav Gupta Live",
-      "club" : "Auro Kitchen and Bar: New Delhi"
+      "club": "Auro Kitchen and Bar: New Delhi"
+    }
+  ],
+  "users": [
+    {
+      "userid": "6246c5bf85a49b3d4bab6cfe",
+      "title": "RRR",
+      "amount": 519,
+      "id": 1
+    },
+    {
+      "userid": "6246c5bf85a49b3d4bab6cfe",
+      "title": "RRR",
+      "amount": 285,
+      "id": 2
+    },
+    {
+      "userid": "6246c5bf85a49b3d4bab6cfe",
+      "title": "RRR",
+      "amount": 622,
+      "id": 3
+    },
+    {
+      "userid": "6246c5bf85a49b3d4bab6cfe",
+      "title": "RRR",
+      "amount": 262,
+      "id": 4
+    },
+    {
+      "userid": "6246c5bf85a49b3d4bab6cfe",
+      "title": "The Kashmir Files",
+      "amount": 1672,
+      "id": 5
     }
   ]
 }
