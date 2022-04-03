@@ -18,7 +18,7 @@ export const MovieDetails = () => {
 },[])
 
 const getMovies = () => {
-	axios.get(`http://localhost:5000/movies/${id}`).then((res) => {
+	axios.get(`https://bookmyshow-clone-fw14.herokuapp.com/movies/${id}`).then((res) => {
 		setMovie(res.data)
 		// console.log(res.data)
 	})
@@ -85,7 +85,7 @@ const Ratings= styled.div`
 
 				<p style={{fontWeight: "bold", color: "white"}}>{movie.duration} {movie.type} . {movie.movieType} . {movie.release}</p>
 				<button onClick={()=>{
-					{tokens ?navigate(`/payment/${movie.id}`):alert("Sign in first to book tickets")}
+					{tokens ?navigate(`/payment/${movie._id}`):alert("Sign in first to book tickets")}
 					
 				}}  style={{width:"200px", height:"50px", borderRadius:"10px", border: "none", backgroundColor:"#eb4e62", color:"white", fontSize:"15px", fontWeight:"bold"}}>Book Tickets</button>
 			

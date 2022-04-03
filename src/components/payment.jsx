@@ -19,7 +19,7 @@ import { useNavigate } from "react-router-dom";
          
 },[])
 const getMovies = () => {
-	axios.get(`http://localhost:5000/movies/${id}`).then((res) => {
+	axios.get(`https://bookmyshow-clone-fw14.herokuapp.com/movies/${id}`).then((res) => {
 		setMovie(res.data)
         
 		
