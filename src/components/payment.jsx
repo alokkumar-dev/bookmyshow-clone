@@ -50,6 +50,7 @@ const bookmovie=()=>{
       .then(function (response) {
         console.log(response);
         alert("Paymet Sucessfull")
+        navigate('/')
         
       })
       .catch(function (error) {
