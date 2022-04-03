@@ -107,7 +107,7 @@ store.token.token
         color: 'red',
       };
       const purchase=()=>{
-        tokens ? navigate('/purchase') : alert("Sign in first")
+        tokens ? navigate('/') : alert("Sign in first")
       }
      return(
          <nav className="nav">
