@@ -1,14 +1,11 @@
  import { useState } from "react";
-import { Link, Navigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { useDispatch,useSelector } from "react-redux";
  import styled from "styled-components";
  import{addCity} from '../Reducers/city/action'
  import{addToken} from '../Reducers/tokenkey/action'
- import{addProduct} from '../Reducers/product/action'
  import axios from "axios";
- import { useNavigate } from "react-router-dom";
  export const Navbar=()=>{
-  let navigate = useNavigate();
 const [collectdata,collectingdata]=useState({
 email:"",
 password:""
@@ -34,7 +31,7 @@ const logging=(e)=>{
       console.log(response);
         emailtoggle()
         dispatch(addToken(response.data.token))
-        dispatch(addProduct(response.data.user._id))
+        
     })
     .catch(function (error) {
       console.log(error);
@@ -108,10 +105,6 @@ store.token.token
       const linkNew = {
         color: 'red',
       };
-      const purchase=()=>{
-        tokens ? navigate("/purchase"):alert("Sign in first")
-        menutoggle()
-      }
      return(
          <nav className="nav">
           {sign ? <div className="signdiv">
@@ -204,15 +197,14 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
             </div>
           </div>:""
            }{
-             menu ? <div className="menu">
+             menu ? <div onClick={menutoggle} className="menu">
 <div className="menuinside">
   <div className="menuheader">
     <h1>Hey!</h1>
-    <h1  onClick={menutoggle} >x</h1>
   </div>
   <div className="menufooter">
   <div><span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="1 0 22 22"><path fill="#666" fill-rule="evenodd" d="M13.977 5.094l.002.002-.005-.002v.001l-.021-.005.206.045A5.002 5.002 0 0 1 18 10v6.974L20 19h-2l-3.55-.001a2.5 2.5 0 1 1-4.9 0L7.027 19v.004h-3L6 17.003V10a5.002 5.002 0 0 1 4.048-4.91l-.049.01L10 4a2 2 0 1 1 4 0l.001 1.1-.008-.002-.035-.008.018.004zm-.563 13.905h-2.829a1.5 1.5 0 1 0 2.83 0zM13 6h-2a4 4 0 0 0-4 4v6.978L7.014 18H17v-8a4 4 0 0 0-4-4zm.983-.904l.003.001.007.001-.008-.001-.002-.001zm-.002 0h.002l-.005-.002.003.002zm-.28-.047l.112.017.018.002-.13-.019zm-3.388-.003l-.057.009.036-.005.02-.004zm.267-.029l-.172.018.148-.016.024-.002zm2.928.008l.082.01a5.014 5.014 0 0 0-.082-.01zm-2.803-.016l-.125.008h.015l.11-.008zm2.538-.003h.013l.05.003-.063-.003zM12 3a1 1 0 0 0-1 1v1h2V4a1 1 0 0 0-1-1z"></path></svg></span><span>Notifications</span><span></span></div>
-  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/purchasehistory.png" class="sc-gRnDUn gMMdZt"/></span><span onClick={purchase}><p>Purchase History <br />  View all your bookings & purchases</p></span><span></span></div>
+  <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/purchasehistory.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Purchase History <br />  View all your bookings & purchases</p></span><span></span></div>
   <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/streamlibrary.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Stream Library<br />Rented & Purchased Movies</p></span><span></span></div>
   <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/helpandsupport.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Help & Support<br />View commonly asked queries and Chat</p></span><span></span></div>
   <div><span><img src="https://assets-in.bmscdn.com/members/common/icons/accountandsettings.png" class="sc-gRnDUn gMMdZt"/></span><span><p>Accounts & Settings<br />Location, Payments, Addresses & More</p></span><span></span></div>
@@ -263,7 +255,7 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
                  <div className="navsecond">
 <span className="span1">
 <Link to="/" style={linkStyle}>Movies</Link>
-<Link to="/" style={linkStyle}><p style={linkNew} >NEW</p>Stream </Link>
+<Link to="/payment" style={linkStyle}><p style={linkNew} >NEW</p>Stream </Link>
 <Link to="/" style={linkStyle}>Events</Link>
 <Link to="/" style={linkStyle}>Plays</Link>
 <Link to="/" style={linkStyle}>Sports</Link>
@@ -274,7 +266,7 @@ C44.5,25.4,53.3,16.6,62,7.8c2-2,4-4,6-6C69.2,0.7,70.6,0,72.7,0z"></path></svg></
 <Link to="/" style={linksecond}><p style={linkNew} >NEW</p>ListYourShow</Link>
 <Link to="/" style={linksecond}>Corporates </Link>
 <Link to="/offers" style={linksecond}>Offers</Link>
-<Link to="/" style={linksecond}>Gift Cards</Link>
+<Link to="/offers" style={linksecond}>Gift Cards</Link>
 </span>
                  </div>
              
