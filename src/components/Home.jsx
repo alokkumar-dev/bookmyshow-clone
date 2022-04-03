@@ -151,7 +151,7 @@ export const Home = () => {
           <Carousel breakPoints={breakPoints}>
             {recommended.map((el) => {
               return (
-                <Wrapper to={`/movies/${el.id}`} key={el.id}>
+                <Wrapper to={`/movies/${el._id}`} key={el.id}>
                   <Image src={el.imageUrl} />
                   <h4>{el.title}</h4>
                   <p style={{ color: "gray" }}>{el.type}</p>
