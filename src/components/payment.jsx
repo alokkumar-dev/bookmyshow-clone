@@ -37,7 +37,7 @@ store.product.product
 )
 
 const bookmovie=()=>{
-    axios.post('https://bookmyshow-clone-fw14.herokuapp.com/bags', {
+    axios.post('https://bookmyshow-clone-fw14.herokuapp.com/bag', {
         userid: product,
         title: movie.title,
         img:movie.imgUrl,
