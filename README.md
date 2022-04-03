@@ -3,10 +3,10 @@
 This is clone of BookMyShow.com.We have used HTML, CSS,Advance Javascript, React and Redux to acheive this.
 In this project we have tried to clone the “BookMyShow” website. We had build up all our efforts to do our best in this project. As, the Masai School's Mentorship  was specifically to build up our skills and we also accordingly implemented all that teachings in our project to look it at its best.
 
-# Deployed Link:  
-     https://sleepy-scrubland-64819.herokuapp.com/home
-# Blog Link:
-     https://medium.com/@alokkumar-dev/bookmyshow-clone-website-78d5e03a27b4
+# Deployed Link:
+*https://sleepy-scrubland-64819.herokuapp.com/home*
+# Blog Link: 
+*https://medium.com/@alokkumar-dev/bookmyshow-clone-website-78d5e03a27b4*
  
 # Snapshots
 
@@ -24,6 +24,7 @@ In this project we have tried to clone the “BookMyShow” website. We had buil
 3. Advanced JavaScript
 4. React
 5. Redux
+6. Mongoose & MongoDB
 
 # Features
 1. It is a Sinle Page Application.
