@@ -13,12 +13,12 @@ In this project we have tried to clone the “BookMyShow” website. We had buil
  
 # Snapshots
 
-![Screenshot (1256)](https://user-images.githubusercontent.com/66282953/158457493-462de7f8-3014-405e-8c8f-47aa480df142.png)
-![Screenshot (1257)](https://user-images.githubusercontent.com/66282953/158457525-e5cb0a0a-0f79-4c5d-93a7-68ee6b882b07.png)
-![Screenshot (1258)](https://user-images.githubusercontent.com/66282953/158457556-bf2c5cc9-e65a-40df-b6a7-c05b0608f2eb.png)
-![Screenshot (1259)](https://user-images.githubusercontent.com/66282953/158457643-21859235-57b7-4323-8359-16dbeb109a52.png)
-![Screenshot (1260)](https://user-images.githubusercontent.com/66282953/158457657-93ac8be7-c6fe-4763-8765-4d83196eb2ed.png)
-![Screenshot (1261)](https://user-images.githubusercontent.com/66282953/158457685-9d124088-b09a-412b-8dd2-98202b50b037.png)
+![Screenshot (1256)](https://i.ibb.co/pvCPGN0/landing-page.jpg)
+![Screenshot (1257)](https://i.ibb.co/gWj5Rd0/Choose-City-Popup.jpg)
+![Screenshot (1258)](https://i.ibb.co/QFJTbVH/Offers-Page.jpg)
+![Screenshot (1259)](https://i.ibb.co/C1NGVtb/Sign-In-popup.jpg)
+![Screenshot (1260)](https://i.ibb.co/t3WkhG8/Create-Account-Popup.jpg)
+![Screenshot (1261)](https://i.ibb.co/Fmg6fzW/Login-Popup.jpg)
 
 # Technology We Used :computer: 
 
