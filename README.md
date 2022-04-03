@@ -7,7 +7,7 @@ In this project we have tried to clone the “BookMyShow” website. We had buil
 *https://bookmyshow-clone-eight.vercel.app/*
 # Blog Link: 
 *https://medium.com/@alokkumar-dev/bookmyshow-clone-website-78d5e03a27b4*
-# Repository Link:#
+# Repository Link:
 *https://github.com/alokkumar-dev/bookmyshow-clone/*
 
  
